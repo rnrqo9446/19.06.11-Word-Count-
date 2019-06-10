@@ -1,0 +1,25 @@
+h1 {
+    font-family: 'Black Han Sans', sans-serif;
+    font-weight: bold;
+    color: goldenrod;
+}
+
+h2{
+    font-family: 'Do Hyeon', sans-serif;
+    color : navy;
+}
+
+a{
+    font-family: 'Nanum Pen Script', cursive;
+    color: chocolate;
+}
+
+p{
+    font-family: 'Cute Font', cursive;
+    color : brown;
+}
+
+ul{
+    font-family: 'Cute Font', cursive;
+    color : brown;
+}

@@ -1,0 +1,25 @@
+{% load static %}
+
+<head>
+ <title>JGB의 WORD COUNT APP 입니다!!</title>
+ <link rel="stylesheet" href = "{% static 'css/WC.css' %}">
+ <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans|Cute+Font|Do+Hyeon|Nanum+Pen+Script&display=swap" rel="stylesheet">
+   
+        <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- 부가적인 테마 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+    <h1 class="bg-info">안녕하세요!!! <strong>WORD COUNT</strong>에 오신 것을 환영합니다!!<small>     by JGB</small></h1>
+    {% block content %}
+    {% endblock %}
+
+</body>
